@@ -12,7 +12,7 @@ function Footer(){
             </div>
         </nav>
         <p>
-        Copyright &copy; 2024 Ahmed Hussain. All rights reserved.
+        Copyright &copy; 2024 Anes Motam. All rights reserved.
         </p>
         </footer>
     )

@@ -2,6 +2,9 @@ function Experience() {
 	const goToProjects = () => {
 		location.href = './#projects';
 	};
+    const goToContact = () => {
+        location.href = './#contact';
+    }
 	return (
 		<section id="experience">
 			<p className="section_text_1">My Current</p>
@@ -113,7 +116,7 @@ function Experience() {
 			<span
 				id="xp-arrow"
 				className="material-symbols-outlined arrow"
-				onClick={goToProjects}>
+				onClick={goToContact}>
 				arrow_downward
 			</span>
 		</section>
