@@ -1,10 +1,10 @@
 import { useState } from "react";
-import { useEffect } from "react";
+
 
 function About(){
     const [selectedBtn, setSelectedBtn] = useState(null);
 
-    const [about,setAbout] = useState([{img:"images/NC-logo.png",h3:'Experience',p:'Completed a 13-Week Full Stack Software Development Bootcamp as a Trainee Software Developer at Northcoders focusing on a PERN Stack'}])
+    const [about,setAbout] = useState('A former professional economist and data analyst transitioning into the world of data engineering. I have a keen interest in leveraging data to influence decision making with a special focus on sustainability and resource management. Looking to connect with other professionals and organisations within the data and analytics space.')
     const goToProjects = () => {
         location.href = './#experience';
     }
@@ -32,23 +32,9 @@ function About(){
                 <img src="images/about-pic.png" alt="profile picture overlooking mountain" className="about-pic" />
             </div>
             <div className="about-details-container">
-                <div className="btn-container-about">
-                    <button className={`btn exp-btn ${selectedBtn === 'exp' ? 'selected-btn' : ''}`} onClick={() => toggleAbout('exp')}> <img src="images/NC-logo.png" alt="" /></button>
-                    <button className={`btn edu-btn ${selectedBtn === 'edu' ? 'selected-btn' : ''}`} onClick={() => toggleAbout('edu')}>  <img src="images/Education-logo.png" alt="" /></button>
-                    <button className={`btn personalInfo-btn ${selectedBtn === 'PI' ? 'selected-btn' : ''}`} onClick={() => toggleAbout('PI')}><img src="images/PI-logo.png" alt="" /></button>
-                </div>
                 <div className="about-containers">
                     <div className="details-container">
-                    {about.map((aboutObj,index) => {
-                        return(
-                        <div key={index}>
-                        <img src={aboutObj.img} alt="logo of northcoders" className="about-logo"/>
-                        <h3>{aboutObj.h3}</h3>
-                        <p>{aboutObj.p}</p>
-                        </div>
-                        )
-                        
-                    })}
+                      {about}
                     </div>
                 </div>
                 

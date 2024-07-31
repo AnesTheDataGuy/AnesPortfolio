@@ -8,7 +8,7 @@ function Intro(){
 	};
 	
 	const gitHub = () => {
-		window.open('https://github.com/Ahuss98', '_blank');
+		window.open('https://github.com/AnesTheDataGuy', '_blank');
 	};
 	
 	const goToContact = () => {

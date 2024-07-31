@@ -281,6 +281,7 @@ a:hover{
   border: rgb(53,53,53)0.1rem solid;
   border-color: rgb(163,163,163);
   text-align: center;
+  font-size: larger;
 }
 .section-container{
   gap: 4rem;
