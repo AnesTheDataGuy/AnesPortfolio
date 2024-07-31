@@ -8,7 +8,7 @@ function Nav() {
 	return (
 		<>
 			<nav id="desktop-nav">
-				<div className="logo">Ahmed Hussain</div>
+				<div className="logo">Anes Motam</div>
 				<div>
 					<ul className="nav-links">
 						<li>
@@ -27,7 +27,7 @@ function Nav() {
 				</div>
 			</nav>
 			<nav id="hamburger-nav">
-				<div className="logo">Ahmed Hussain</div>
+				<div className="logo">Anes Motam</div>
 				<div className="hamburger-menu">
 					<div className="hamburger-icon" onClick={toggleMenu}>
 						<span></span>

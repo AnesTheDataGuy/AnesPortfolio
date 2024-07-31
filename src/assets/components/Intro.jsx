@@ -26,9 +26,9 @@ function Intro(){
 			<div className="section_text">
 				<div className="section_text">
 					<p className="section_text_1"> Hello, I'm</p>
-					<h1 className="title"> Ahmed Hussain</h1>
+					<h1 className="title"> Anes Motam</h1>
 					<p className="section_text_2">
-						FullStack Software Developer
+						Data Engineer
 					</p>
                     <div className="btn-container">
 					<button className="btn btn-cv" onClick={openResume}>
