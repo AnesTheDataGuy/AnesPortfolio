@@ -4,7 +4,7 @@ function Intro(){
 	};
 	
 	const linkedIn = () => {
-		window.open('https://www.linkedin.com/in/ahmed-hussain-122b33271/', '_blank');
+		window.open('https://www.linkedin.com/in/anes-motam-59347a194/', '_blank');
 	};
 	
 	const gitHub = () => {
