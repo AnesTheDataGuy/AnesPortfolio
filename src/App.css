@@ -449,7 +449,7 @@ align-content: center;
   display: flex;
   justify-content: center;
   align-content: center;
-
+  border-bottom: solid rgb(58, 56, 56) 1px;
 }
 
 @media screen and (max-width: 1400px) {
