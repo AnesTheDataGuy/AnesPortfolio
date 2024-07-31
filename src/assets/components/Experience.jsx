@@ -9,47 +9,71 @@ function Experience(){
             <div className="experience-details-container">
                 <div className="about-containers">
                     <div className="details-container">
-                        <h2 className="experience-sub-title">Front-End</h2>
-                        <img src="images/Front-End.png" alt="picture of me with northcoders logo behind me" className="banner-nc"/>
+                        <div className="tech-title">
+                        <img src="images/code-logo.png" alt="picture of me with northcoders logo behind me" className="banner-nc"/>
+                        <h2 className="experience-sub-title">Programming</h2>
+                        </div>
                         <div className="article-container">
                             <article>
-                                <img src="images/html-icon.png" alt="html icon" />
-                                <h5>HTML</h5>
+                                <img src="images/python-logo.png" alt="html icon" />
+                                <h5>Python</h5>
                             </article>
                             <article>
-                                <img src="images/css-icon.png" alt="css icon" />
-                                <h5>CSS</h5>
+                                <img src="images/r-icon.png" alt="css icon" />
+                                <h5>R</h5>
                             </article>
                             <article>
                                 <img src="images/js-icon.png" alt="javascript icon" />
                                 <h5>JavaScript</h5>
                             </article>
+                        </div>
+                    </div>
+                    <div className="details-container">
+                    <div className="tech-title"> 
+                        <img src="images/cloud-logo.png" alt="picture of me with my back facing camera" className="banner-nc"/>
+                        <h2 className="experience-sub-title">Cloud</h2>
+                    </div>
+                        <div className="article-container">
                             <article>
-                                <img src="images/react-icon.png" alt="react icon" />
-                                <h5>React</h5>
+                                <img src="images/aws-icon.png" alt="express icon" />
+                                <h5>AWS</h5>
+                            </article>
+                            <article>
+                                <img src="images/ec2-icon.png" alt="node icon" />
+                                <h5>EC2</h5>
+                            </article>
+                            <article>
+                                <img src="images/lambda-icon.png" alt="pswl icon" />
+                                <h5>Lambda</h5>
+                            </article>
+                            <article>
+                                <img src="images/S3-icon.png" alt="jest icon" />
+                                <h5>S3</h5>
                             </article>
                             
                         </div>
                     </div>
                     <div className="details-container">
-                        <h2 className="experience-sub-title">Back-End</h2>
-                        <img src="images/Back-End.png" alt="picture of me with my back facing camera" className="banner-nc"/>
+                    <div className="tech-title"> 
+                        <img src="images/devops-logo.png" alt="picture of me with my back facing camera" className="banner-nc"/>
+                        <h2 className="experience-sub-title">DevOps</h2>
+                    </div>
                         <div className="article-container">
                             <article>
-                                <img src="images/express-icon.png" alt="express icon" />
-                                <h5>Express</h5>
+                                <img src="images/aws-icon.png" alt="express icon" />
+                                <h5>AWS</h5>
                             </article>
                             <article>
-                                <img src="images/node.png" alt="node icon" />
-                                <h5>Node</h5>
+                                <img src="images/ec2-icon.png" alt="node icon" />
+                                <h5>EC2</h5>
                             </article>
                             <article>
-                                <img src="images/psql-icon.png" alt="pswl icon" />
-                                <h5>PostgreSQL</h5>
+                                <img src="images/lambda-icon.png" alt="pswl icon" />
+                                <h5>Lambda</h5>
                             </article>
                             <article>
-                                <img src="images/jest-icon.png" alt="jest icon" />
-                                <h5>Jest</h5>
+                                <img src="images/S3-icon.png" alt="jest icon" />
+                                <h5>S3</h5>
                             </article>
                             
                         </div>

@@ -403,7 +403,8 @@ position: relative;
   color: rgb(85,85,85);
   font-weight: 600;
   font-size: 1.75rem;
-  margin-bottom: 2rem;
+  align-content: center;
+  margin-left: 3rem
 }
 .experience-details-container{
   display: flex;
@@ -440,10 +441,15 @@ article .icon{
   right: -8rem;
 }
 .banner-nc{
-min-width: 100%;
-min-height: 12rem;
-border-radius: 2rem;
-outline: solid black 2px;
+min-width: 20%;
+min-height: 8rem;
+align-content: center;
+}
+  .tech-title{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
 }
 
 @media screen and (max-width: 1400px) {
