@@ -58,9 +58,9 @@ function Projects( ){
         <section id="projects">
             <p className="section_text_1">Browse my </p>
             <h1 className="title">Projects</h1>
-            <div className="experience-details-container">
+            <div className="experience-details-container project-details-container">
                 <div className="about-containers">
-                <div className="details-container color-container">
+                <div className="details-container color-container project-container">
                     <div className="article-container img-container">
                         <img 
                         src="images/pokemon.png" 
@@ -80,7 +80,7 @@ function Projects( ){
                         </button>
                     </div>
                 </div>
-                <div className="details-container color-container">
+                <div className="details-container color-container project-container">
                     <div className="article-container img-container">
                         <img 
                         src="images/ETL.png" 
