@@ -25,9 +25,9 @@ function Nav() {
 						<li>
 							<a href="#experience">Tech Stack</a>
 						</li>
-						{/* <li>
+						<li>
 							<a href="#projects">Projects</a>
-						</li> */}
+						</li>
 						<li>
 							<a href="#contact">Contact</a>
 						</li>
@@ -51,11 +51,11 @@ function Nav() {
 						<li>
 							<a href="#experience" onClick={toggleHam}>Tech Stack</a>
 						</li>
-						{/* <li>
+						<li>
 							<a href="#projects" onClick={toggleMenu}>
 								Projects
 							</a>
-						</li> */}
+						</li>
 						<li>
 							<a href="#contact" onClick={toggleHam}>
 								Contact

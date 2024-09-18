@@ -42,52 +42,65 @@ function Projects( ){
     const goToHussianFit =() => {
         window.open('https://main--hussainfitness.netlify.app/', '_blank')
     }
+    const goToPokemonGitHub =() => {
+        window.open('https://github.com/AnesTheDataGuy/de-pokemon', '_blank')
+    }
+    const goToPokemonLiveDemo =() => {
+        window.open('https://drive.google.com/file/d/1GCH4pfkCyKKpsHPfvydk0VNxvesHdsn1/view?usp=drive_link', '_blank')
+    }
+    const goToETLGithub =() => {
+        window.open('https://github.com/AnesTheDataGuy/totesys-ETL', '_blank')
+    }
+    const goToETLLiveDemo =() => {
+        window.open('https://drive.google.com/file/d/1odyziS-7wzpAxBBb9YMjReQ-F7f__tog/view?usp=drive_link', '_blank')
+    }
     return (
         <section id="projects">
             <p className="section_text_1">Browse my </p>
             <h1 className="title">Projects</h1>
             <div className="experience-details-container">
                 <div className="about-containers">
-                <div className="details-container color-conaitiner">
-                    <div className="article-container">
+                <div className="details-container color-container">
+                    <div className="article-container img-container">
                         <img 
-                        src="images/FE-Project-pic.png" 
+                        src="images/pokemon.png" 
                         alt="my front end project snpashot"
                         className="project-img" 
                         />
                     </div>
-                    <h2 className="experience-sub-title project-title">NCN NEWS</h2>
+                    <h2 className="experience-sub-title project-title">Pokemon Battler</h2>
+                    <p>Python | TDD</p>
+                    <br></br>
                     <div className="btn-container">
-                        <button className="btn btn-color-2 project-btn" onClick={goToFrontEndGitHub}>
+                        <button className="btn btn-color-2 project-btn" onClick={goToPokemonGitHub}>
                             Github
                         </button>
-                        <button className="btn btn-color-2 project-btn" onClick={goToFrontEndLinkedIn}>
-                            LinkedIn
-                        </button>
-                        <button className="btn btn-color-2 project-btn" onClick={goToLiveSite}>
-                            Live site
+                        <button className="btn btn-color-2 project-btn" onClick={goToPokemonLiveDemo}>
+                            Live Demo
                         </button>
                     </div>
                 </div>
-                <div className="details-container color-conaitiner">
-                    <div className="article-container">
+                <div className="details-container color-container">
+                    <div className="article-container img-container">
                         <img 
-                        src="images/BE-Project-pic.png" 
+                        src="images/ETL.png" 
                         alt="my back end project snapshot"
-                        className="project-img" 
+                        className="project-img etl-img" 
                         />
                     </div>
-                    <h2 className="experience-sub-title project-title">NCN API</h2>
+                    <h2 className="experience-sub-title project-title">Totesys ETL</h2>
+                    <p>Terraform | AWS | Python | CI/CD</p>
+                    <br></br>
                     <div className="btn-container">
-                        <button className="btn btn-color-2 project-btn" onClick={goToBackEndGitHub}>
+                        <button className="btn btn-color-2 project-btn" onClick={goToETLGithub}>
                             Github
                         </button>
-                        <button className="btn btn-color-2 project-btn" onClick={goToBackEndLinkedIn}>
-                            LinkedIn
+                        <button className="btn btn-color-2 project-btn" onClick={goToETLLiveDemo}>
+                            Live Demo
                         </button>
                     </div>
                 </div>
-                <div className="details-container color-conaitiner">
+                {/* <div className="details-container color-conaitiner">
                     <div className="article-container">
                         <img 
                         src="images/APP-Project-pic.png" 
@@ -128,14 +141,13 @@ function Projects( ){
                             Live site
                         </button>
                     </div>
-                </div>
+                </div> */}
                 </div>
             </div>
             <span id="projects-arrow" className="material-symbols-outlined arrow" onClick={goToContact}>
                         arrow_downward
                 </span>
         </section>
-        
     )
 }
 export default Projects;

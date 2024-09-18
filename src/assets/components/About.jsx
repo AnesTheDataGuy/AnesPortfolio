@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 function About() {
 	const [about, setAbout] = useState(
-		'A former professional economist and data analyst transitioning into the world of data engineering. I have a keen interest in leveraging data to influence decision making with a special focus on sustainability and resource management. Looking to connect with other professionals and organisations within the data and analytics space.'
+		'A former professional economist with a strong background in analytical project management. I excel in leading and executing projects to the highest standards. Additionally, I played a crucial role in the draft and quality assurance stages of official government statistics on air pollution. Following my tenure in the civil service, I completed a 13-week data engineering bootcamp to further enhance my skills. I am eager to connect regarding any opportunities involving data and analytics.'
 	);
 
 	const goToProjects = () => {
@@ -16,7 +16,7 @@ function About() {
 				<div className="section_pic-container">
 					<img
 						src="images/about-pic.png"
-						alt="profile picture overlooking mountain"
+						alt="profile picture of anes in suit"
 						className="about-pic"
 					/>
 				</div>

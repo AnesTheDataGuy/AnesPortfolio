@@ -13,12 +13,12 @@ function Experience() {
 				<div className="about-containers">
 					<div className="details-container">
 						<div className="tech-title">
-							<img
+							<h2 className="experience-sub-title" >Programming</h2>
+							{/* <img
 								src="images/code-logo.png"
 								alt="picture of me with northcoders logo behind me"
 								className="banner-nc"
-							/>
-							<h2 className="experience-sub-title">Programming</h2>
+							/> */}
 						</div>
 						<div className="article-container">
 							<article>
@@ -37,12 +37,12 @@ function Experience() {
 					</div>
 					<div className="details-container">
 						<div className="tech-title">
-							<img
+						<h2 className="experience-sub-title">Cloud</h2>
+							{/* <img
 								src="images/cloud-logo.png"
 								alt="picture of me with my back facing camera"
 								className="banner-nc"
-							/>
-							<h2 className="experience-sub-title">Cloud</h2>
+							/> */}
 						</div>
 						<div className="article-container">
 							<article>
@@ -65,12 +65,12 @@ function Experience() {
 					</div>
 					<div className="details-container">
 						<div className="tech-title">
-							<img
+						<h2 className="experience-sub-title">DevOps</h2>
+							{/* <img
 								src="images/devops-logo.png"
 								alt="picture of me with my back facing camera"
 								className="banner-nc"
-							/>
-							<h2 className="experience-sub-title">DevOps</h2>
+							/>							 */}
 						</div>
 						<div className="article-container">
 							<article>
@@ -89,21 +89,17 @@ function Experience() {
 					</div>
 					<div className="details-container">
 						<div className="tech-title">
-							<img
+							<h2 className="experience-sub-title">Data</h2>
+							{/* <img
 								src="images/data-logo.png"
 								alt="picture of me with my back facing camera"
 								className="banner-nc"
-							/>
-							<h2 className="experience-sub-title">Data</h2>
+							/> */}
 						</div>
 						<div className="article-container">
 							<article>
 								<img src="images/sql-icon.png" alt="express icon" />
 								<h5>SQL</h5>
-							</article>
-							<article>
-								<img src="images/psql-icon.png" alt="node icon" />
-								<h5>PSQL</h5>
 							</article>
 							<article>
 								<img src="images/excel-icon.png" alt="pswl icon" />
@@ -116,7 +112,7 @@ function Experience() {
 			<span
 				id="xp-arrow"
 				className="material-symbols-outlined arrow"
-				onClick={goToContact}>
+				onClick={goToProjects}>
 				arrow_downward
 			</span>
 		</section>

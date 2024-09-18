@@ -49,7 +49,7 @@ function Intro(){
 					/>
 					<img
 						src="images/github-logo.png"
-						alt="My gitHub in profile"
+						alt="My GitHub in profile"
 						className="icon"
 						onClick={gitHub}
 					/>

@@ -15,7 +15,7 @@ function App() {
     <Intro/>
     <About/>
     <Experience/>
-    {/* <Projects/> adding when projects have been done*/}
+    <Projects/>
     <Contact/>
     <Footer/>
     </>
