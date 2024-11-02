@@ -54,12 +54,17 @@ function Projects( ){
     const goToETLLiveDemo =() => {
         window.open('https://drive.google.com/file/d/1odyziS-7wzpAxBBb9YMjReQ-F7f__tog/view?usp=drive_link', '_blank')
     }
+    const goToMavenMarket =() => {
+        window.open('https://mavenanalytics.io/project/21709', '_blank')
+    }
+    const goToAdvWorks =() => {
+        window.open('https://mavenanalytics.io/project/21708', '_blank')
+    }
     return (
         <section id="projects">
             <p className="section_text_1">Browse my </p>
             <h1 className="title">Projects</h1>
-            <div className="experience-details-container project-details-container">
-                <div className="about-containers">
+            <div className="project-details-container">
                 <div className="details-container color-container project-container">
                     <div className="article-container img-container">
                         <img 
@@ -77,6 +82,40 @@ function Projects( ){
                         </button>
                         <button className="btn btn-color-2 project-btn" onClick={goToPokemonLiveDemo}>
                             Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div className="details-container color-container project-container">
+                    <div className="article-container img-container">
+                        <img 
+                        src="images/mavenmarket.png" 
+                        alt="my back end project snapshot"
+                        className="project-img etl-img" 
+                        />
+                    </div>
+                    <h2 className="experience-sub-title project-title">MavenMarket Project</h2>
+                    <p>PowerBI | DAX | PowerQuery</p>
+                    <br></br>
+                    <div className="btn-container">
+                        <button className="btn btn-color-2 project-btn" onClick={goToMavenMarket}>
+                            More Info
+                        </button>
+                    </div>
+                </div>
+                <div className="details-container color-container project-container">
+                    <div className="article-container img-container">
+                        <img 
+                        src="images/advworks.png" 
+                        alt="my back end project snapshot"
+                        className="project-img etl-img" 
+                        />
+                    </div>
+                    <h2 className="experience-sub-title project-title">AdventureWorks Report</h2>
+                    <p>PowerBI | DAX | PowerQuery</p>
+                    <br></br>
+                    <div className="btn-container">
+                        <button className="btn btn-color-2 project-btn" onClick={goToAdvWorks}>
+                            More Info
                         </button>
                     </div>
                 </div>
@@ -142,7 +181,6 @@ function Projects( ){
                         </button>
                     </div>
                 </div> */}
-                </div>
             </div>
             <span id="projects-arrow" className="material-symbols-outlined arrow" onClick={goToContact}>
                         arrow_downward

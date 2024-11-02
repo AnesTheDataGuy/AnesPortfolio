@@ -22,7 +22,7 @@ function About() {
 				</div>
 				<div className="about-details-container">
 					<div className="about-containers">
-						<div className="details-container">{about}</div>
+						<div className="about-me-container">{about}</div>
 					</div>
 				</div>
 			</div>
