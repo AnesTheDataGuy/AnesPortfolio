@@ -65,7 +65,44 @@ function Projects( ){
             <p className="section_text_1">Browse my </p>
             <h1 className="title">Projects</h1>
             <div className="project-details-container">
-                <div className="details-container color-container project-container">
+            <div className="details-container color-container project-container">
+                    <div className="article-container img-container">
+                        <img 
+                        src="images/advworks.png"  
+                        alt="my back end project snapshot"
+                        className="project-img etl-img" 
+                        />
+                    </div>
+                    <h2 className="experience-sub-title project-title">AdventureWorks Report</h2>
+                   <p>PowerBI | DAX | PowerQuery</p>
+                    <br></br>
+                    <div className="btn-container">
+                    <button className="btn btn-color-2 project-btn" onClick={goToAdvWorks}>
+                            More Info
+                        </button>
+                    </div>
+                </div>
+            <div className="details-container color-container project-container">
+                    <div className="article-container img-container">
+                        <img 
+                        src="images/ETL.png" 
+                        alt="my front end project snpashot"
+                        className="project-img etl-img" 
+                        />
+                    </div>
+                    <h2 className="experience-sub-title project-title">Totesys ET</h2>
+                    <p>Terraform | AWS | Python | CI/CD</p>
+                    <br></br>
+                    <div className="btn-container">
+                    <button className="btn btn-color-2 project-btn" onClick={goToETLGithub}>
+                            Github
+                        </button>
+                        <button className="btn btn-color-2 project-btn" onClick={goToETLLiveDemo}>
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+            <div className="details-container color-container project-container">
                     <div className="article-container img-container">
                         <img 
                         src="images/mavenmarket.png" 
@@ -82,7 +119,27 @@ function Projects( ){
                         </button>
                     </div>
                 </div>
-                <div className="details-container color-container project-container">
+            <div className="details-container color-container project-container">
+                    <div className="article-container img-container">
+                        <img 
+                        src="images/pokemon.png" 
+                        alt="my front end project snpashot"
+                        className="project-img etl-img" 
+                        />
+                    </div>
+                    <h2 className="experience-sub-title project-title">Pokemon Battler</h2>
+                    <p>Python | TDD</p>
+                    <br></br>
+                    <div className="btn-container">
+                        <button className="btn btn-color-2 project-btn" onClick={goToPokemonGitHub}>
+                            Github
+                        </button>
+                        <button className="btn btn-color-2 project-btn" onClick={goToPokemonLiveDemo}>
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                {/* <div className="details-container color-container project-container">
                     <div className="article-container img-container">
                         <img 
                         src="images/advworks.png" 
@@ -96,26 +153,6 @@ function Projects( ){
                     <div className="btn-container">
                         <button className="btn btn-color-2 project-btn" onClick={goToAdvWorks}>
                             More Info
-                        </button>
-                    </div>
-                </div>
-                <div className="details-container color-container project-container">
-                    <div className="article-container img-container">
-                        <img 
-                        src="images/pokemon.png" 
-                        alt="my front end project snpashot"
-                        className="project-img" 
-                        />
-                    </div>
-                    <h2 className="experience-sub-title project-title">Pokemon Battler</h2>
-                    <p>Python | TDD</p>
-                    <br></br>
-                    <div className="btn-container">
-                        <button className="btn btn-color-2 project-btn" onClick={goToPokemonGitHub}>
-                            Github
-                        </button>
-                        <button className="btn btn-color-2 project-btn" onClick={goToPokemonLiveDemo}>
-                            Live Demo
                         </button>
                     </div>
                 </div>
@@ -138,7 +175,7 @@ function Projects( ){
                             Live Demo
                         </button>
                     </div>
-                </div>
+                </div> */}
                 {/* <div className="details-container color-conaitiner">
                     <div className="article-container">
                         <img 
