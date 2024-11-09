@@ -1,6 +1,6 @@
 function Intro(){
 	const openResume = () => {
-		window.open('public/images/resume.pdf', '_blank');
+		window.open('public/cv.pdf', '_blank');
 	};
 	
 	const linkedIn = () => {
